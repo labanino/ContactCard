@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-card {
+    flex-basis: 250px;
+    margin: 20px;
+}
+
+.contact-card > img {
+    width: 100%;
+    height: auto;
+}
+
+.contact-card > h3 {
+    text-align: center;
+}
+
+.contact-card > p {
+    font-size: 12px;
+    text-align: center;
+}
